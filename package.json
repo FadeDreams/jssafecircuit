@@ -1,0 +1,23 @@
+{
+  "name": "jssafecircuit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadedreams/jssafecircuit"
+  },
+  "keywords": [
+    "Fault Tolerance",
+    "Resilience",
+    "Failure Management"
+  ],
+  "author": "fadedreams7",
+  "homepage": "https://github.com/fadedreams/jseventhub",
+  "license": "MIT",
+  "description": "A Node.js library implementing a circuit breaker pattern to manage and mitigate failures in asynchronous operations, with configurable states and callback events.",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  }
+}
+
